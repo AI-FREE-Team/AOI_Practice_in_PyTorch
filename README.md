@@ -180,19 +180,21 @@ jupyter notebook
             def __init__(self, target_csv, root_path, height, width, transform = None):
                 
                 # height, width
-                pass
-                
-                # attach static info to self 
-                pass
-                
-                # 1. Read CSV file through root_path (REF: Step 04)
-                pass
-                
-                # 2. Remember the length (by self) (REF: def __len__(self))
-                pass
-                
-                # 3. transform (you can also attach a "Function" to self)
-                pass
+                self.height = height
+                self.width = width
+        
+                # register self
+                self.target_csv = target_csv
+                self.root_path = root_path
+        
+                # 1. Read CSV file through root_path
+                self.df = pd.read_csv(self.target_csv)
+        
+                # 2. Remember the length
+                self.count = len(self.df)
+        
+                # 3. transform
+                self.transforms = transform
             
             # input: index
             # output: pair of (image, lable)
