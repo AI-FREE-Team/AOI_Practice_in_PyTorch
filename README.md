@@ -74,11 +74,11 @@
 
     - AIdea AOI Detection: [https://aidea-web.tw/topic/285ef3be-44eb-43dd-85cc-f0388bf85ea4](https://aidea-web.tw/topic/285ef3be-44eb-43dd-85cc-f0388bf85ea4)
 
-        ![](https://github.com/AI-FREE-Team/AI/blob/main/AOI_Practice_in_PyTorch/20210529_PyTorch_Image_Classification/imgs/step02_01.png)
+        ![](https://github.com/AI-FREE-Team/AI/blob/main/AOI_Practice_in_PyTorch/imgs/step02_01.png)
 
     - Download Page:
 
-        ![](https://github.com/AI-FREE-Team/AI/blob/main/AOI_Practice_in_PyTorch/20210529_PyTorch_Image_Classification/imgs/step02_02.png)
+        ![](https://github.com/AI-FREE-Team/AI/blob/main/AOI_Practice_in_PyTorch/imgs/step02_02.png)
 
 - Step 03: Arrange File Structure
     - 預期的專案結構如下:
@@ -88,15 +88,15 @@
         - . / train.csv
         - . / LeNet5.ipynb ← 這個 Python File 是要自己新建的
 
-        ![](https://github.com/AI-FREE-Team/AI/blob/main/AOI_Practice_in_PyTorch/20210529_PyTorch_Image_Classification/imgs/step03_01.png)
+        ![](https://github.com/AI-FREE-Team/AI/blob/main/AOI_Practice_in_PyTorch/imgs/step03_01.png)
 
     - train_images
 
-        ![](https://github.com/AI-FREE-Team/AI/blob/main/AOI_Practice_in_PyTorch/20210529_PyTorch_Image_Classification/imgs/step03_02.png)
+        ![](https://github.com/AI-FREE-Team/AI/blob/main/AOI_Practice_in_PyTorch/imgs/step03_02.png)
 
     - train.csv
 
-        ![](https://github.com/AI-FREE-Team/AI/blob/main/AOI_Practice_in_PyTorch/20210529_PyTorch_Image_Classification/imgs/step03_03.png)
+        ![](https://github.com/AI-FREE-Team/AI/blob/main/AOI_Practice_in_PyTorch/imgs/step03_03.png)
 
 ---
 
@@ -109,7 +109,7 @@ jupyter notebook
 
 然後點選: LeNet5.ipynb
 
-![](https://github.com/AI-FREE-Team/AI/blob/main/AOI_Practice_in_PyTorch/20210529_PyTorch_Image_Classification/imgs/step03_05.png)
+![](https://github.com/AI-FREE-Team/AI/blob/main/AOI_Practice_in_PyTorch/imgs/step03_05.png)
 
 ---
 
@@ -154,7 +154,7 @@ jupyter notebook
 
     - Conclusion:
 
-        ![](https://github.com/AI-FREE-Team/AI/blob/main/AOI_Practice_in_PyTorch/20210529_PyTorch_Image_Classification/imgs/step04_01.png)
+        ![](https://github.com/AI-FREE-Team/AI/blob/main/AOI_Practice_in_PyTorch/imgs/step04_01.png)
 
 - Step 05: Define Custom Dataset Class
     - import 此步驟需要的套件
@@ -246,11 +246,11 @@ jupyter notebook
 - Step 07: Define LeNet5-like Structure
     - Yann Lecun
 
-        ![](https://github.com/AI-FREE-Team/AI/blob/main/AOI_Practice_in_PyTorch/20210529_PyTorch_Image_Classification/imgs/step07_01.png)
+        ![](https://github.com/AI-FREE-Team/AI/blob/main/AOI_Practice_in_PyTorch/imgs/step07_01.png)
 
         - Original Version of LeNet5 in his [paper](http://yann.lecun.com/exdb/publis/pdf/lecun-98.pdf).
 
-        ![](https://github.com/AI-FREE-Team/AI/blob/main/AOI_Practice_in_PyTorch/20210529_PyTorch_Image_Classification/imgs/step07_02.png)
+        ![](https://github.com/AI-FREE-Team/AI/blob/main/AOI_Practice_in_PyTorch/imgs/step07_02.png)
 
     - Structure of Original LeNet5
 
@@ -294,7 +294,7 @@ jupyter notebook
     - API lookup [[Link](https://pytorch.org/docs/stable/index.html)]
         - Conv2D [[Link](https://pytorch.org/docs/1.7.1/generated/torch.nn.Conv2d.html#torch.nn.Conv2d)]
 
-            ![](https://github.com/AI-FREE-Team/AI/blob/main/AOI_Practice_in_PyTorch/20210529_PyTorch_Image_Classification/imgs/step07_03.png)
+            ![](https://github.com/AI-FREE-Team/AI/blob/main/AOI_Practice_in_PyTorch/imgs/step07_03.png)
 
 - Step 08: Define Loss Function and setup Hyper Parameters
 
@@ -372,12 +372,12 @@ jupyter notebook
     print('Finished Training')
     ```
 
-    ![](https://github.com/AI-FREE-Team/AI/blob/main/AOI_Practice_in_PyTorch/20210529_PyTorch_Image_Classification/imgs/step09_00.png)
+    ![](https://github.com/AI-FREE-Team/AI/blob/main/AOI_Practice_in_PyTorch/imgs/step09_00.png)
 
     - Why zero_grad
         - What step(), backward(), and zero_grad() do [[Link](https://discuss.pytorch.org/t/what-step-backward-and-zero-grad-do/33301)]
 
-            ![](https://github.com/AI-FREE-Team/AI/blob/main/AOI_Practice_in_PyTorch/20210529_PyTorch_Image_Classification/imgs/step09_01.png)
+            ![](https://github.com/AI-FREE-Team/AI/blob/main/AOI_Practice_in_PyTorch/imgs/step09_01.png)
 
 - Step 10: Plot Accuracy & Loss Curves
 
@@ -404,9 +404,9 @@ jupyter notebook
     plt.show()
     ```
 
-    ![](https://github.com/AI-FREE-Team/AI/blob/main/AOI_Practice_in_PyTorch/20210529_PyTorch_Image_Classification/imgs/step10_01.png)
+    ![](https://github.com/AI-FREE-Team/AI/blob/main/AOI_Practice_in_PyTorch/imgs/step10_01.png)
 
-    ![](https://github.com/AI-FREE-Team/AI/blob/main/AOI_Practice_in_PyTorch/20210529_PyTorch_Image_Classification/imgs/step10_02.png)
+    ![](https://github.com/AI-FREE-Team/AI/blob/main/AOI_Practice_in_PyTorch/imgs/step10_02.png)
 
 - Step 11: Testing Phase
 
@@ -437,7 +437,7 @@ jupyter notebook
     df.to_csv(Name_of_csv_file, index=False)
     ```
 
-    ![](https://github.com/AI-FREE-Team/AI/blob/main/AOI_Practice_in_PyTorch/20210529_PyTorch_Image_Classification/imgs/step11_01.png)
+    ![](https://github.com/AI-FREE-Team/AI/blob/main/AOI_Practice_in_PyTorch/imgs/step11_01.png)
 
 # Future Plan
 
